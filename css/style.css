@@ -250,6 +250,10 @@ progress::-webkit-progress-value {
   background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
   height: 6px;
 }
+.animated {
+  transition-property: background;
+  transition-duration: .4s;
+}
 
 progress {
   background: #FFFFFF;
@@ -723,3 +727,5 @@ progress::-moz-progress-value {
 }
 
 /*сетка*/
+
+
